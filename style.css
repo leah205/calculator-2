@@ -38,6 +38,8 @@ button{
 .operator{
     background: rgb(68, 255, 99);
     border: 3px solid white;
+    width: 70px;
+    margin: 10px 2px;
 }
 .digit{
     background:rgb(180, 153, 255);
@@ -48,4 +50,7 @@ button{
 p{
     margin: 65px 10px;
     font-size: 30px;
+}
+.clear{
+    background:rgb(211, 99, 255);
 }
