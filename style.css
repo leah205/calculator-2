@@ -16,7 +16,7 @@
     align-items: center;
     border-radius: 70px;
 }
-.display{
+.display-container{
     display: block;
     width: 300px;
     height: 100px;
@@ -25,6 +25,7 @@
     border-radius: 15px;
     margin-bottom: 30px;
     color: rgb(2, 0, 117);
+    font-size: 30px;
 }
 
 button{
@@ -47,10 +48,17 @@ button{
 .equals{
     background:rgb(255, 153, 230);
 }
-p{
-    margin: 65px 10px;
-    font-size: 30px;
+.display-container p{
+    margin: 20px 10px;
+    
 }
 .clear{
     background:rgb(211, 99, 255);
+}
+.clicked-operator{
+    background: white;
+}
+.answer-text{
+    font-size: 20px;
+    color: grey;
 }
