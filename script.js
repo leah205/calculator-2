@@ -40,11 +40,11 @@ equalsBtn.addEventListener('click', () => {
 
 function pressNumberBtn(btn){
     if(answer == true){
-        console.log('true')
         displayText.textContent = btn.textContent;
         answer = false;
     }
     else{
+        if(displayText.textContent.includes(".") && btn.textContent == ".") return;
         displayText.textContent += btn.textContent;
     }
     displayValue += btn.textContent;
